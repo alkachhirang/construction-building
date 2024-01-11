@@ -21,13 +21,13 @@ const Testimonials = () => {
             <div className='container xl:max-w-[1320px] mx-auto md:px-6 px-[25px]'>
                 <div className='flex justify-center items-center flex-col'>
                     <h2 className='font-medium text-[20px] text-[#000000] m-0 leading-normal pb-[19px]' data-aos="fade-down">TESTIMONIALS</h2>
-                    <p className='text-[#025066] font-bold text-[35px] sm:text-[48px] m-0 leading-normal pb-[49px]' data-aos="fade-down">What Clients say about us</p>
+                    <p className='text-[#025066] font-bold text-[27px] sm:text-[35px] md:text-[48px] m-0 leading-normal pb-[49px]' data-aos="fade-down">What Clients say about us</p>
                 </div>
                 <div className='relative' data-aos="fade-down">
-                    <div onClick={() => slider?.current?.slickPrev()} className='absolute z-[4] max-w-[49px] right-[20%] top-[15%]'>
+                    <div onClick={() => slider?.current?.slickPrev()} className='absolute z-[4] max-w-[49px] right-[9%] sm:right-[20%] top-[15%]'>
                         <Rightarrow />
                     </div>
-                    <div onClick={() => slider?.current?.slickNext()} className='absolute z-[4] max-w-[49px] left-[20%] top-[15%]'>
+                    <div onClick={() => slider?.current?.slickNext()} className='absolute z-[4] max-w-[49px] left-[9%] sm:left-[20%] top-[15%]'>
                         <Leftarrow />
                     </div>
 
