@@ -22,7 +22,7 @@ const Header = () => {
                     >
                         <li>
                             <a onClick={() => setshow(!show)}
-                                className="text-[#025066] uppercase hover:font-medium transition-all duration-500 ease-linear flex font-normal text-[16px]"
+                                className="text-[#025066] navlink uppercase transition-all duration-500 ease-linear flex font-normal text-[16px]"
                                 href="#home"
                             >
                                 HOME
@@ -30,7 +30,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a onClick={() => setshow(!show)}
-                                className=" text-[#025066] uppercase  hover:font-medium transition-all duration-500 ease-linear font-normal text-[16px] flex"
+                                className=" text-[#025066] navlink uppercase transition-all duration-500 ease-linear font-normal text-[16px] flex"
                                 href="#portfolio"
                             >
                                 PORTFOLIO
@@ -38,7 +38,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a onClick={() => setshow(!show)}
-                                className=" text-[#025066] uppercase  hover:font-medium transition-all duration-500 ease-linear font-normal text-[16px]"
+                                className=" text-[#025066] navlink uppercase  transition-all duration-500 ease-linear font-normal text-[16px]"
                                 href="#blog"
                             >
                                 BLOG
@@ -46,7 +46,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a onClick={() => setshow(!show)}
-                                className=" text-[#025066] uppercase  hover:font-medium transition-all duration-500 ease-linear font-normal text-[16px]"
+                                className=" text-[#025066] navlink uppercase transition-all duration-500 ease-linear font-normal text-[16px]"
                                 href="#contact"
                             >
                                 CONTACT
@@ -54,7 +54,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a onClick={() => setshow(!show)}
-                                className=" text-[#025066] uppercase  hover:font-medium transition-all duration-500 ease-linear font-normal text-[16px]"
+                                className=" text-[#025066] navlink uppercase transition-all duration-500 ease-linear font-normal text-[16px]"
                                 href="#shop"
                             >
                                 SHOP
