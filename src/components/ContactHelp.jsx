@@ -10,6 +10,7 @@ const ContactHelp = () => {
     emailjs.sendForm('service_itpuhya', 'template_elvp262', form.current, 'YB-o2LYZBpBuKPxii')
       .then((result) => {
         console.log(result.text);
+        e.target.reset();
       }, (error) => {
         console.log(error.text);
       });
