@@ -7,16 +7,16 @@ import { Playicon } from './IconImg';
 const InteriorDesign = () => {
     const [showmodal, setshowmodal] = useState(false)
     if (showmodal === true) {
-        document.body.classList.add("max-lg:overflow-hidden")
+        document.body.classList.add("overflow-hidden")
 
     } else {
-        document.body.classList.remove("max-lg:overflow-hidden")
+        document.body.classList.remove("overflow-hidden")
     }
     return (
         <div className='lg:pb-[105px] sm:pb-[80px] pb-[52px]'>
             <div className='container xl:max-w-[1320px] mx-auto md:px-6 px-[25px]'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap xl:items-end mr-auto'>
-                    <div className='lg:w-7/12 relative' data-aos="fade-right">
+                    <div className='lg:w-7/12 relative'>
                         <img src={Interiordesign} alt="Interiordesign" className='lg:h-[479px]' />
                         <div onClick={() => setshowmodal(true)} className='absolute right-0 left-0 bottom-0 top-0 flex justify-center items-center'>
                             <Playicon/>
@@ -33,7 +33,6 @@ const InteriorDesign = () => {
                                 </div>
                             </>
                         ) : null}
-
                     </div>
                     <div className='lg:w-5/12 pb-[40px] lg:pb-[0]' data-aos="fade-left">
                         <div className='lg:max-w-[474px] ml-auto'>
@@ -48,7 +47,6 @@ const InteriorDesign = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
