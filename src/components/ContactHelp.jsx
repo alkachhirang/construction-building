@@ -22,15 +22,15 @@ const ContactHelp = () => {
           <div className='flex flex-wrap flex-row'>
             <div className='lg:w-1/2' data-aos="fade-right">
               <form ref={form} onSubmit={sendEmail}>
-                <input type='' placeholder='Your Name' name='user_name' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] !text-[#4f4f4f] 
+                <input type='' placeholder='Your Name' name='user_name' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] text-[#A7A7A7] 
                 border border-solid border-[#025066] w-full rounded-[6px] outline-none lg:max-w-[594px] mb-[14px]'/>
 
-                <input type='' placeholder='Phone Number' name='user_contact' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] !text-[#4f4f4f] 
+                <input type='' placeholder='Phone Number' name='user_contact' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] !text-[#A7A7A7] 
                 border border-solid border-[#025066] w-full rounded-[6px] outline-none lg:max-w-[594px] mb-[14px]'/>
 
-                <input type='' placeholder='E-Mail' name='user_email' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] !text-[#4f4f4f] 
+                <input type='' placeholder='E-Mail' name='user_email' className='py-[14px] px-[16px] text-[14px] font-medium leading-[142.857%] !text-[#A7A7A7] 
                 border border-solid border-[#025066] w-full rounded-[6px] outline-none lg:max-w-[594px] mb-[14px]'/>
-                <textarea name='' id='' placeholder='Message' cols='30' rows='5' className='lg:max-w-[594px] w-full resize-none py-[14px] px-[16px] outline-none border border-solid border-[#025066] font-medium text-[14px] rounded-[6px]'>
+                <textarea name='message' id='' placeholder='Message' cols='30' rows='5' className='lg:max-w-[594px] w-full resize-none py-[14px] px-[16px] outline-none border !text-[#A7A7A7] border-solid border-[#025066] font-medium text-[14px] rounded-[6px]'>
                 </textarea>
                 <button type='submit' className='hover:shadow-[0_3px_20px_rgba(2,80,102,1)] hover:scale-[1.01] transition-all duration-500 ease-linear mt-[27px] rounded-[10px] bg-[#025066] px-[33px] py-[18px] text-[20px] font-medium text-white uppercase'>CONTACT NOW</button>
               </form>

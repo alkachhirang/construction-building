@@ -13,32 +13,32 @@ const BuildingGallery = () => {
                 <div className='flex flex-row flex-wrap justify-between items-center'>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px]' data-aos="fade-right">
                         <div>
-                            <img src={Building1} alt="Building1" className='w-full' />
+                            <img src={Building1} alt="Building1" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px]' data-aos="fade-right">
                         <div>
-                            <img src={Building2} alt="Building2" className='w-full' />
+                            <img src={Building2} alt="Building2" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px]' data-aos="fade-right">
                         <div>
-                            <img src={Building3} alt="Building3" className='w-full' />
+                            <img src={Building3} alt="Building3" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px] lg:mb-[0]' data-aos="fade-left">
                         <div>
-                            <img src={Building4} alt="Building4" className='w-full' />
+                            <img src={Building4} alt="Building4" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px] md:mb-[0]' data-aos="fade-left">
                         <div>
-                            <img src={Building5} alt="Building5" className='w-full' />
+                            <img src={Building5} alt="Building5" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
                     <div className='lg:w-[32.50%] md:w-[48.50%] mb-[18px] md:mb-[0]' data-aos="fade-left">
                         <div>
-                            <img src={Building6} alt="Building6" className='w-full' />
+                            <img src={Building6} alt="Building6" className='w-full hover:scale-[1.012] transition-all duration-300 ease-linear' />
                         </div>
                     </div>
 
