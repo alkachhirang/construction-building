@@ -110,12 +110,12 @@ const Header = () => {
                                 id faucibus metus ullamcorp
                             </p>
                             <button
-                                className="hover:shadow-[0_3px_20px_rgba(225,_225,_225,_1)] hover:scale-[1.01] transition-all duration-500 ease-linear uppercase text-[#025066] text-[20px] font-medium py-[18px] px-[33px] cursor-pointer bg-white rounded-[10px] "
+                                className="hover:shadow-[0_3px_20px_rgba(225,_225,_225,_1)] transition-all duration-500 ease-linear uppercase text-[#025066] text-[20px] font-medium py-[18px] px-[33px] cursor-pointer bg-white rounded-[10px] "
                                 href=""
                             >
                                 CONTACT NOW
                             </button>
-                            <div className=" flex gap-[14px] lg:pt-[175px] pt-[50px] sm:pt-[60px]" data-aos="fade-up">
+                            <div className=" flex gap-[14px] lg:pt-[170px] pt-[50px] sm:pt-[60px]" data-aos="fade-up">
                                 <div className="transition-all ease-linear duration-300 hover:scale-110">
                                     <Facebook />
                                 </div>
@@ -131,7 +131,7 @@ const Header = () => {
                             <img
                                 src={Buildingimg}
                                 alt="Buildingimg"
-                                className=" w-full lg:max-w-[941px] md:max-w-[780px] max-w-[550px] sm:max-w-[650px] !max-h-[511px] absolute lg:right-[-10px] right-[-23px] max-4xl:pl-40 max-2xl:pl-60 max-xl:ps-96 max-lg:ps-0"
+                                className=" w-full lg:max-w-[980px] md:max-w-[780px] max-w-[550px] sm:max-w-[650px] !max-h-[511px] absolute lg:right-[-10px] right-[-23px] max-4xl:pl-40 max-2xl:pl-60 max-xl:ps-96 max-lg:ps-0"
                             />
                         </div>
                     </div>

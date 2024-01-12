@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import Girlimg from '../assets/images/png/girl-img.png';
+import Menimg from '../assets/images/png/men-img.webp';
 import { Star } from './IconImg';
 import { Rightarrow } from './IconImg';
 import { Leftarrow } from './IconImg';
@@ -11,7 +12,7 @@ const Testimonials = () => {
     var settings = {
         dots: false,
         infinite: true,
-        // fade:true,
+        fade:true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
@@ -24,10 +25,10 @@ const Testimonials = () => {
                     <p className='text-[#025066] font-bold text-[27px] sm:text-[35px] md:text-[48px] m-0 leading-normal pb-[49px]' data-aos="fade-down">What Clients say about us</p>
                 </div>
                 <div className='relative' data-aos="fade-down">
-                    <div onClick={() => slider?.current?.slickPrev()} className='absolute z-[4] max-w-[49px] right-[9%] sm:right-[20%] top-[15%]'>
+                    <div onClick={() => slider?.current?.slickPrev()} className='absolute cursor-pointer z-[4] max-w-[49px] right-[9%] sm:right-[20%] top-[15%]'>
                         <Rightarrow />
                     </div>
-                    <div onClick={() => slider?.current?.slickNext()} className='absolute z-[4] max-w-[49px] left-[9%] sm:left-[20%] top-[15%]'>
+                    <div onClick={() => slider?.current?.slickNext()} className='absolute cursor-pointer z-[4] max-w-[49px] left-[9%] sm:left-[20%] top-[15%]'>
                         <Leftarrow />
                     </div>
 
@@ -39,14 +40,8 @@ const Testimonials = () => {
                             <p className='pt-[18px] m-0 text-[#025066] font-normal text-[16px] leading-[139%] max-w-[469px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
                         </div>
                         <div className='!flex items-center justify-center flex-col'>
-                            <img src={Girlimg} alt="Girlimg" className='w-full text-center max-w-[126px] pb-[19px]' />
-                            <p className='text-[#025066] text-[16px] font-bold leading-normal m-0 pb-[30px] text-center'>TREGSDKH</p>
-                            <Star />
-                            <p className='pt-[18px] m-0 text-[#025066] font-normal text-[16px] leading-[139%] max-w-[469px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
-                        </div>
-                        <div className='!flex items-center justify-center flex-col'>
-                            <img src={Girlimg} alt="Girlimg" className='w-full text-center max-w-[126px] pb-[19px]' />
-                            <p className='text-[#025066] text-[16px] font-bold leading-normal m-0 pb-[30px] text-center'>TREGSDKH</p>
+                            <img src={Menimg} alt="Menimg" className='w-full text-center max-w-[126px] pb-[19px]' />
+                            <p className='text-[#025066] text-[16px] font-bold leading-normal m-0 pb-[30px] text-center'>Profile</p>
                             <Star />
                             <p className='pt-[18px] m-0 text-[#025066] font-normal text-[16px] leading-[139%] max-w-[469px] text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
                         </div>

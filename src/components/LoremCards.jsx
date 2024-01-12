@@ -32,8 +32,8 @@ const LoremCards = () => {
                 <div className='flex flex-row flex-wrap lg:justify-between justify-center md:gap-[35px] lg:gap-[0] items-center'>
                     {data.map((a, index) => (
                         <div key={index} className='lg:w-[32.30%] md:w-[47%] md:mb-[7px] mb-[24px] cursor-pointer ' data-aos="zoom-in-down">
-                            <div className='rounded-[5px] bg-[#ffffff] group shadow-[9px_16px_32px_0px rgba(0,_0,_0,_0.25)] px-[15px] pt-[15px] pb-[26px]'>
-                                <img src={a.image} alt="image" className='rounded-[5px] mb-[20px] w-full group-hover:scale-[1.012] transition-all duration-300 ease-linear' />
+                            <div className='rounded-[5px] bg-[#ffffff] hover:scale-[1.012] transition-all duration-300 ease-linear shadow-[9px_16px_32px_0px rgba(0,_0,_0,_0.25)] px-[15px] pt-[15px] pb-[26px]'>
+                                <img src={a.image} alt="image" className='rounded-[5px] mb-[20px] w-full' />
                                 <p className='m-0 text-[#025066] text-[25px] font-bold leading-[139%] pb-[11px]'>{a.content}</p>
                                 <p className='text-[#025066B2] leading-[139%] font-normal text-[16px] m-0 pb-[24px] md:max-w-[382px]'>{a.content2}</p>
                                 <div className='flex items-center gap-[8px]'>
